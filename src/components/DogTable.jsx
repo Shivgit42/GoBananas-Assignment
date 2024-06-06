@@ -38,7 +38,7 @@ const DogTable = () => {
             "Content-Type": "application/json",
             // API key for The Dog API (replace with your actual API key)
             "x-api-key":
-              "live_tZuLOgaciL37gw3UwEEuoFtFKx8GX7Ep9wgPjTZlv7da0Hdd1mEwzU0NtvMlkLTb",
+              "YOUR_API_KEY",
           },
         }
       );
