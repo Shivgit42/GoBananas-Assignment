@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# GoBananas Assignment
+
+### `Task Description`
+
+### Build a Simple React Application with API Integration and Material-UI. You must build a single-page application that fetches data from a public API and displays it in a user-friendly format. The application should include:
+
+- A list view displaying items fetched from the API.
+- Basic navigation and styling using Material-UI.
+- A search feature to filter the displayed items.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

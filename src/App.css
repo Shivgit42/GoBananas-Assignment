@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
+/* Global Styles */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.container-class {
+  background-color: rgba(14, 89, 130, 0.584);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+div {
+  width: 70vw;
+}
+/* Search Bar Styles */
+.TextField-root {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  background: rgb(254, 254, 254);
+}
+
+/* Table Styles */
+.TableContainer-root {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.TableHead-root {
+  background-color: #1976d2; /* Material-UI primary color */
+}
+
+.TableCell-root {
+  color: #fff; /* White color for header cells */
+}
+
+.TableRow-root:nth-of-type(odd) {
+  background-color: #f0f0f0; /* Light grey for odd rows */
+}
+
+.TableRow-root:hover {
+  background-color: #e0e0e0; /* Slightly darker grey for hover effect */
+}
+
+/* Image Styles */
+img {
+  width: auto;
+  max-height: 100px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05); /* Slightly enlarge images on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .TableCell-root,
+  .TextField-root {
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  img {
+    max-height: 80px;
   }
 }
